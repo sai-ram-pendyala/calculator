@@ -39,6 +39,8 @@ function operate(e) {
 
     else if(value === 'C') {
         display.value = '';
+        lastValue = '';
+        operator = '';
     }
 
     else {
