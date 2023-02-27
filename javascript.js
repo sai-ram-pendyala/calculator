@@ -6,7 +6,7 @@ let operator = '';
 function operate(e) {
     let button = e.target;
     let value = button.value;
-    console.log(value);
+    // console.log(value);
     
     if(value === '+' || value === '-' || value === '*' || value === '/') {
         if(operator !== '') {
@@ -58,6 +58,7 @@ function operate(e) {
         
         lastValue = res;
         display.value = res;
+        operator = '';
     }
     
     else if(value === 'C') {
@@ -69,7 +70,7 @@ function operate(e) {
     else {
         display.value += value;
     }
-    console.log(lastValue, operator, display.value);
+    // console.log(lastValue, operator, display.value);
 }
 
 buttons.forEach(button => button.addEventListener('click', operate));
