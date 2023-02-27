@@ -31,7 +31,6 @@ input {
     background: #fbfbfb;
     border: 2px solid transparent;
     height: 36px;
-    direction: rtl;
     box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
 }
 
